@@ -1,0 +1,13 @@
+$mainColour: #FFFF00;
+$mainBgColour: #000000;
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
+  background-color: $mainBgColour;
+}
+
+h1 {
+  text-align: center;
+  color: $mainColour;
+  text-transform: uppercase;
+}
