@@ -1,4 +1,4 @@
-$titleColour: hotpink;
+$titleColour: #FF69B4;
 $mainColour: #FFFFFF;
 $mainBgColour: #000000;
 $linkColour: #CA6702;
@@ -15,10 +15,11 @@ h1 {
   text-transform: uppercase;
   padding: 20px;
   border: 1px solid #333333;
+  border-radius: 10px;
 }
 
 main div {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #333333;
   padding: 10px;
   a {
     text-decoration: none;

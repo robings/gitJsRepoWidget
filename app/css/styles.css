@@ -5,13 +5,14 @@ body {
 
 h1 {
   text-align: center;
-  color: hotpink;
+  color: #FF69B4;
   text-transform: uppercase;
   padding: 20px;
-  border: 1px solid #333333; }
+  border: 1px solid #333333;
+  border-radius: 10px; }
 
 main div {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #333333;
   padding: 10px; }
   main div a {
     text-decoration: none;
@@ -22,4 +23,4 @@ main div {
     width: 32px; }
 
 span {
-  color: hotpink; }
+  color: #FF69B4; }
