@@ -1,8 +1,25 @@
 body {
   font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
-  background-color: #000000; }
+  background-color: #000000;
+  color: #FFFFFF; }
 
 h1 {
   text-align: center;
-  color: #FFFF00;
-  text-transform: uppercase; }
+  color: hotpink;
+  text-transform: uppercase;
+  padding: 20px;
+  border: 1px solid #333333; }
+
+main div {
+  border-bottom: 1px solid #999999;
+  padding: 10px; }
+  main div a {
+    text-decoration: none;
+    color: #CA6702; }
+    main div a:hover {
+      text-decoration: underline; }
+  main div img {
+    width: 32px; }
+
+span {
+  color: hotpink; }

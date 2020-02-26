@@ -1,13 +1,37 @@
-$mainColour: #FFFF00;
+$titleColour: hotpink;
+$mainColour: #FFFFFF;
 $mainBgColour: #000000;
+$linkColour: #CA6702;
 
 body {
   font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
   background-color: $mainBgColour;
+  color: $mainColour;
 }
 
 h1 {
   text-align: center;
-  color: $mainColour;
+  color: $titleColour;
   text-transform: uppercase;
+  padding: 20px;
+  border: 1px solid #333333;
+}
+
+main div {
+  border-bottom: 1px solid #999999;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    color: $linkColour;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  img {
+    width: 32px;
+  }
+}
+
+span {
+  color: $titleColour;
 }
