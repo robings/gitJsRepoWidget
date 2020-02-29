@@ -1,7 +1,8 @@
 body {
-  font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
   background-color: #000000;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
 h1 {
   text-align: center;
@@ -9,18 +10,46 @@ h1 {
   text-transform: uppercase;
   padding: 20px;
   border: 1px solid #333333;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 main div {
   border-bottom: 1px solid #333333;
-  padding: 10px; }
-  main div a {
-    text-decoration: none;
-    color: #CA6702; }
-    main div a:hover {
-      text-decoration: underline; }
-  main div img {
-    width: 32px; }
+  padding: 10px;
+}
+main div a {
+  text-decoration: none;
+  color: #CA6702;
+}
+main div a:hover {
+  text-decoration: underline;
+}
+main div img {
+  width: 32px;
+}
 
 span {
-  color: #FF69B4; }
+  color: #FF69B4;
+}
+
+.spinnerMessage {
+  color: #FF69B4;
+  display: inline-block;
+  padding: 6px 10px;
+  float: left;
+  border: none;
+}
+
+#spinner {
+  animation: animateSpinner 3s linear infinite;
+  float: left;
+}
+
+@keyframes animateSpinner {
+  100% {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
